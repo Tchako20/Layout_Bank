@@ -14,7 +14,7 @@ const Layout({ Key? key }) : super(key: key);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Layout',
-      theme: MyTheme,
+      theme: myTheme,
       home: const Home(),
     );
   }

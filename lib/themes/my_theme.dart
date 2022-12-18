@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:layout/themes/theme_colors.dart';
 
-ThemeData MyTheme = ThemeData(
+ThemeData myTheme = ThemeData(
   primarySwatch: ThemeColors.primaryColor,
   primaryColor: ThemeColors.primaryColor,
   brightness: Brightness.dark,
   fontFamily: 'Raleway',
-  textTheme: TextTheme(
-    bodyMedium: const TextStyle(
+  textTheme: const TextTheme(
+    bodyMedium: TextStyle(
       fontSize: 16,
     ),
     bodyLarge: TextStyle(
